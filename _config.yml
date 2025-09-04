@@ -1,0 +1,46 @@
+title: "Your Name — Academic Profile"
+name: "Your Name"
+description: "Faculty profile • research, teaching, awards"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Set this after you publish (e.g., https://username.github.io)
+url: ""
+baseurl: ""
+
+author:
+  name: "Your Name"
+  avatar: "/assets/img/avatar.jpg"
+  bio: "Professor, Department of XYZ. Research: networking, cloud computing, multimedia systems."
+  location: "IIT Guwahati, India"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:yourname@iitg.ac.in"
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+      sidebar:
+        nav: "main"
+
+# Navigation title shown in sidebar (optional)
+masthead_title: ""
+
+# Keep these as-is
+markdown: kramdown
+kramdown:
+  input: GFM
