@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Research"
+    url: /research/
+  - title: "Other Activities"
+    url: /activities/
+  - title: "Awards/Honours"
+    url: /awards/
+  - title: "Links"
+    url: /links/
+  - title: "Contact"
+    url: /contact/
